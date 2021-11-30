@@ -14,3 +14,22 @@
     - Lab configuration and/or automation
     - Grading lab results
     - ??? 
+
+The basic "model" works like this:
+- Day 1
+  - Module 1
+    - Lesson 1
+      - Topic 1
+        - TRY IT LAB (AS NEEDED)
+      - Topic X  
+        - TRY IT LAB (AS NEEDED)
+      - Lesson Review
+        - HANDS ON EXERCISE LAB
+    - Lesson X
+      - (REPEAT AS LESSON ABOVE)
+    - Module Review
+      - END OF MODULE LAB  
+  - Module X
+    - (REPEAT AS MODULE ABOVE)  
+- Day X
+  - (REPEAT AS DAY ABOVE)  
