@@ -1,6 +1,6 @@
 # Server Support Linux Workshop
 
-## Day 1 Agenda
+## [Day 1 Agenda](./Day_1/)
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
@@ -31,7 +31,7 @@
 | " | " | " | RegEx Documentation and Examples |
 ||||
 
-## Day 2 Agenda
+## [Day 2 Agenda](./Day_2/)
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
@@ -56,7 +56,7 @@
 | " | " | " | Persistent Journal Logging |
 ||||
 
-## Day 3 Agenda
+## [Day 3 Agenda](./Day_3/)
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
@@ -81,7 +81,7 @@
 | " | " | " | Using `vgexted` and `lvextend` |
 ||||
 
-## Day 4 Agenda
+## [Day 4 Agenda](./Day_4/)
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
@@ -103,9 +103,9 @@
 | " | " | " | Running Intel CPU Diagnostics |
 | " | " | Installing the DSU repos on RHEL8 | Installing and Using `dsu` |
 | " | " | Installing OMSA on RHEL8 | Using the DSU repos |
-||||
+|||||
 
-## Day 5 Agenda
+## [Day 5 Agenda](./Day_5/)
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
