@@ -1,65 +1,18 @@
-# EX200 Prep
+# Server Support Linux Workshop
 
-## Day # Agenda
+## Day 5 Agenda
 
-| **Modules & Chapters** | **Lessons & Topics** | **Pages** |
-| :---------- | ----------: | --------: |
-| Class Introduction |||
+| **Section** | **Module** | **Lesson** | **Topic** |
+| :---------: | :--------: | :--------: | :-------- |
+| Running Linux on PowerEdge | Ubuntu Server | Idenfitying Supported Versions | Ubuntu "LTS" versions |
+| " | " | " | What "Certified," "Validated," and "Fully Supported" mean |
+| " | " | Important Ubuntu Differences | Logging differences from RHEL |
+| " | " | " | Configuration differences from RHEL |
+| " | Deploy and configure a server activity | Deployment | Resetting the hardware configuration |
+| " | " | " | Installing RHEL8 manually |
+| " | " | Configuration | Setting up users and groups |
+| " | " | " | Configuring the network |
+| " | " | " | Installing DSU and OMSA |
+| " | " | Validation | Collecting a `sosreport` |
+| " | " | " | Verifying system information using `sosreport` |
 ||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 1-3,5 |
-|| Topic 2 | 6-8 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 44-45 |
-|| Topic 2 | 45-48 |
-|| Topic 3 | 48-49 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 39-41 |
-|| Topic 2 | 34-37 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 52-71 |
-|| Topic 2 | 71-75 |
-||||
-
-## RHCSA Exam Objectives Covered
-
-- MAJOR OBJECTIVE CATEGORY 1
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-   
-- MAJOR OBJECTIVE CATETORY 2
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
