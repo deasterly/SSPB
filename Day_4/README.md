@@ -1,65 +1,25 @@
-# EX200 Prep
+# Server Support Linux Workshop
 
-## Day # Agenda
+## Day 4 Agenda
 
-| **Modules & Chapters** | **Lessons & Topics** | **Pages** |
-| :---------- | ----------: | --------: |
-| Class Introduction |||
+| **Section** | **Module** | **Lesson** | **Topic** |
+| :---------: | :--------: | :--------: | :-------- |
+| Running Linux on PowerEdge | Identifying Networks | Identifying NICs | Using `ip link` and `ethtool` |
+| " | " | " | Using `lsmod` and `modinfo` |
+| " | " | Finding IP address, routing, and DNS info | Using `ip addr` and `ip route` |
+| " | " | " | Using `dig` to query DNS |
+| " | " | " | Using `nmcli` to find information |
+| " | Configuring Ethernet Networks | Understanding the `NetworkManager` service | Devices and Connections |
+| " | " | " | Using 'nmtui` and `nmcli` |
+| " | Identifying additional hardware | Finding RAM information | Using `free` and */proc/meminfo* |
+| " | " | " | Using `dmidecode` to identify RAM |
+| " | " | Finding PCI device information | Using `lspci` and `lshw` |
+| " | " | Finding USB device information | Using `lsusb` and `lshw` |
+| " | " | Finding driver information | Kernel module basics |
+| " | " | " | Using `lsmod`, `modprobe`, and `modinfo` |
+| " | Using Dell Software on Linux | Booting to the SLI | Launching OMSA |
+| " | " | " | Clearing Single Bit Errors from Event Logs  |
+| " | " | " | Running Intel CPU Diagnostics |
+| " | " | Installing the DSU repos on RHEL8 | Installing and Using `dsu` |
+| " | " | Installing OMSA on RHEL8 | Using the DSU repos |
 ||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 1-3,5 |
-|| Topic 2 | 6-8 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 44-45 |
-|| Topic 2 | 45-48 |
-|| Topic 3 | 48-49 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 39-41 |
-|| Topic 2 | 34-37 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 52-71 |
-|| Topic 2 | 71-75 |
-||||
-
-## RHCSA Exam Objectives Covered
-
-- MAJOR OBJECTIVE CATEGORY 1
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-   
-- MAJOR OBJECTIVE CATETORY 2
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
