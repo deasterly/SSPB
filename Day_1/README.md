@@ -4,7 +4,7 @@
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
-| Using Red Hat Enterprise Linux | BASH CLI Shell | Logging in to the CLI shell | Local Terminals |
+| Using RHEL | BASH CLI Shell | Logging in to the CLI shell | Local Terminals |
 | " | " | " | Remote SSH Terminals |
 | " | " | Understanding commands and their syntax | Shell Built-ins |
 | " | " | " | External Commands and Scripts |
@@ -20,6 +20,7 @@
 | " | " | " | Understanding  `man` Pages |
 | " | " | " | Using GNU Info pages |
 | " | Managing Files and Directories | Creating, copying, moving/renaming, and removing | GNU Coreutils |
+| " | " | " | Filename Expansion (a.k.a. "globbing") |
 | " | " | Archiving files an directories | GNU `tar` |
 | " | " | Transferring files over a network | Using `sftp` and `scp` |
 | " | Working with Text | Reading text files | Using `cat`, `less`, `tail`, `head`, `wc` et.al |
@@ -34,23 +35,54 @@
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
-| SECTION TITLE | MODULE TITLE1 | LESSON TITLE1 | TOPIC1 |
-| " | " | " | TOPICx |
-| " | " | LESSON TITLEx | TOPICx |
-| " | MODULE TITLEx | LESSON TITLE1 | TOPIC1 |
-| " | " | " | TOPICx |
+| Linux System Administration | Users and Groups | Creating and managing users and groups | Using `groupadd`, `groupmod`, and `groupdel` |
+| " | " | " | Using `useradd`, `usermod`, and `userdel` |
+| " | " | Setting user passwords | Using `passwd` |
+| " | " | " | Using `chage` |
+| " | " | Elevating user privileges | Using `su` |
+| " | " | " | Using `sudo` |
+| " | Software Package Management | Adding and removing software | Using `yum` |
+| " | " | " | Using `rpm` to query packages |
+| " | " | Adding installation repositories | Understanding */etc/yum.repos.d/*.repo* files |
+| " | File Ownership and Permissions | Identifying and interpreting ownership and permissions | Permission Basics |
+| " | " | " | Understanding `stat` and `ls -l` output |
+| " | " | Modifying ownership | Using `chgrp` and `chown` |
+| " | " | Modifying permissions | Using `chmod` |
+| " | " | " | Special Permissions |
+| " | Searching Linux Logs | Understanding `rsyslogd` rules | Common Logs |
+| " | " | " | Adding Custom Logs |
+| " | " | Understanding log rotation | Using `logrotate` and */etc/logrotate.conf* |
+| " | " | Searching the ***systemd*** journal using `journalctl` | Using `journalctl` |
+| " | " | " | Persistent Journal Logging |
 ||||
 
 ## Day 3 Agenda
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
-| SECTION TITLE | MODULE TITLE1 | LESSON TITLE1 | TOPIC1 |
-| " | " | " | TOPICx |
-| " | " | LESSON TITLEx | TOPICx |
-| " | MODULE TITLEx | LESSON TITLE1 | TOPIC1 |
-| " | " | " | TOPICx |
+| Linux System Administration | Collecting Troubleshooting Information | The `cockpit` Web Console | Connecting to Cockpit |
+| " | " | " | Using Cockpit |
+| " | " | Using `sosreport` | Collection and Extraction |
+| " | " | " | Finding Information |
+| Running Linux on PowerEdge | Supported Versions | Indentifying supported Linux versions | Finding OS version and release info |
+| " | " | " | Locating support matrices |
+| " | Identifying storage | Identifying disks and partitions | Disks and Partitions |
+| " | " | Identifying LVM storage | PVs, VGs, and LVs |
+| " | " | Identifying filesystems and mountpoints | Identifying Filesystems |
+| " | " | " | Identifying Mountpoints |
+| " | Configuring storage | Creating partitions | Using `fdisk`, `gdisk`, and `parted` |
+| " | " | Creating XFS and EXT4 Filesystems | Using `mkfs`, `mkfs.xfs`, and `mkfs.ext4` |
+| " | " | Mounting filesystems | Using `mount` and `umount` |
+| " | " | " | Configuring */etc/fstab* |
+| " | " | Creating and activating SWAP filesystems | Using `swapon` and `swapoff` |
+| " | " | " | Using `mkswap` and configuring */etc/fstab* |
+| " | " | Configuring LVM | LVM Basics |
+| " | " | " | Using `pvcreate`, `vgcreate`, and `lvcreate`
+| " | " | " | Using `vgexted` and `lvextend` |
 ||||
+
+
+
 
 ## Day 4 Agenda
 
@@ -108,33 +140,43 @@
     - Identifying and interpreting ownership and permissions information
     - Using `chown` and `chgrp` to modify ownership
     - Using `chmod` to modify permissions 
-  - Collecting troubleshooting information
-    - Using the Cockpit web console
-    - Using `sosreport` 
   - Searching Linux logs
     - Understanding `rsyslogd` rules
     - Understanding log rotation
     - Searching the ***systemd*** journal using `journalctl`   
+  - Collecting troubleshooting information
+    - Using the Cockpit web console
+    - Using `sosreport` 
 *****
 - Running Linux on PowerEdge Servers
   - Identifying supported Linux versions
     - Finding OS version and release info
     - Locating support matrices
-  - Using Dell Software on Linux
-    - Booting to the Support Live Image (SLI)    
-    - Installing the Dell Server Update Utility (DSU)
-    - Installing OpenManage Server Administrator (OMSA)
   - Identifying storage
     - Identifying disks and partitions
     - Identifying LVM Physical Volumes, Volume Groups, and Logical Volumes
     - Identifying filesystems and mountpoints 
+  - Configuring storage
+    - Creating partitions
+    - Creating XFS and EXT4 filesystems
+    - Mounting filesystems
+    - Creating and activating SWAP filesystems
+    - Configuring LVM 
   - Identifying networks
     - Identifying NICs and finding their details
     - Finding IP address, routing, and DNS information
+  - Configuring ethernet networks
+    - Understanding the `NetworkManager` service
+    - Using `nmtui` and `nmcli` 
   - Identifying additional hardware
     - Finding RAM information
     - Finding PCI device information
     - Finding USB device information
     - Finding driver information
+  - Using Dell Software on Linux
+    - Booting to the Support Live Image (SLI)    
+    - Installing the Dell Server Update Utility (DSU)
+    - Installing OpenManage Server Administrator (OMSA)
+
 *****
 *****
