@@ -1,65 +1,26 @@
-# EX200 Prep
+# Server Support Linux Workshop
 
-## Day # Agenda
+## Day 3 Agenda
 
-| **Modules & Chapters** | **Lessons & Topics** | **Pages** |
-| :---------- | ----------: | --------: |
-| Class Introduction |||
+| **Section** | **Module** | **Lesson** | **Topic** |
+| :---------: | :--------: | :--------: | :-------- |
+| Linux System Administration | Collecting Troubleshooting Information | The `cockpit` Web Console | Connecting to Cockpit |
+| " | " | " | Using Cockpit |
+| " | " | Using `sosreport` | Collection and Extraction |
+| " | " | " | Finding Information |
+| Running Linux on PowerEdge | Supported Versions | Indentifying supported Linux versions | Finding OS version and release info |
+| " | " | " | Locating support matrices |
+| " | Identifying storage | Identifying disks and partitions | Disks and Partitions |
+| " | " | Identifying LVM storage | PVs, VGs, and LVs |
+| " | " | Identifying filesystems and mountpoints | Identifying Filesystems |
+| " | " | " | Identifying Mountpoints |
+| " | Configuring storage | Creating partitions | Using `fdisk`, `gdisk`, and `parted` |
+| " | " | Creating XFS and EXT4 Filesystems | Using `mkfs`, `mkfs.xfs`, and `mkfs.ext4` |
+| " | " | Mounting filesystems | Using `mount` and `umount` |
+| " | " | " | Configuring */etc/fstab* |
+| " | " | Creating and activating SWAP filesystems | Using `swapon` and `swapoff` |
+| " | " | " | Using `mkswap` and configuring */etc/fstab* |
+| " | " | Configuring LVM | LVM Basics |
+| " | " | " | Using `pvcreate`, `vgcreate`, and `lvcreate`
+| " | " | " | Using `vgexted` and `lvextend` |
 ||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 1-3,5 |
-|| Topic 2 | 6-8 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 44-45 |
-|| Topic 2 | 45-48 |
-|| Topic 3 | 48-49 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 39-41 |
-|| Topic 2 | 34-37 |
-||||
-| Module Title (Chapter #) |||
-|| Topic 1 | 52-71 |
-|| Topic 2 | 71-75 |
-||||
-
-## RHCSA Exam Objectives Covered
-
-- MAJOR OBJECTIVE CATEGORY 1
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-   
-- MAJOR OBJECTIVE CATETORY 2
-  - OBJECTIVE 1
-  - OBJECTIVE 2
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
-## Module # - Module Title
-### Lesson 1 - Lesson Title
-### Lesson 2 - Lesson Title
-
-> IMAGE OF MODULE `TREE` 
-
-*****
