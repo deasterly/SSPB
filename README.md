@@ -6,7 +6,7 @@ SEE [AGEND.md](./AGENDA.md)
 
 ## Objectives Covered
 
-- Using Red Hat Enterprise Linux
+### Using Red Hat Enterprise Linux
   - Using the BASH CLI shell effectively and efficiently
     - Logging in to the CLI shell
     - Understanding commands and their syntax
@@ -25,7 +25,7 @@ SEE [AGEND.md](./AGENDA.md)
     - Editing text using `vim`
     - Searching for text using `grep` 
 
-- Performing System Administration Tasks in Linux
+### Performing System Administration Tasks in Linux
   - Managing users and groups
     - Creating and managing groups and users
     - Setting user passwords
@@ -45,7 +45,7 @@ SEE [AGEND.md](./AGENDA.md)
     - Using the Cockpit web console
     - Using `sosreport` 
 
-- Running Linux on PowerEdge Servers
+### Running Linux on PowerEdge Servers
   - Identifying supported Linux versions
     - Finding OS version and release info
     - Locating support matrices
