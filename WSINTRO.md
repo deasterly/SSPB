@@ -1,4 +1,4 @@
-# INTRODUCTION
+# INTRODUCTION > What is this workshop?
 
 ## What is the purpose of this workshop?
 1. Provide a "Linux Boot Camp" for technicians familiar with the PowerEdge Server platform
@@ -17,3 +17,5 @@
 3. An on-demand lab environment from the class "Introduction to Linux" 
     - Instructions for registration will be provided later
 4. Various files and links that will be provided as needed
+
+[LAB INFORMATION](./WSLABINFO.md)
