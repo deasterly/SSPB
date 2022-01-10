@@ -4,7 +4,7 @@
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
-| Class Introduction | Welcome to this Workshop! | Getting Started | [What is this workshop? ](./WSINSTRO.md) |
+| Class Introduction | Welcome to this Workshop! | Getting Started | [What is this workshop? ](./WSINTRO.md) |
 | " | " | " | [Lab Environment Information](./WSLABINFO.md) |
 | " | " | " | [Additional Resources](./WSRESROURCES.md) |
 | Using RHEL | BASH CLI Shell | Logging in to the CLI shell | [Local Terminals](./Day_1/topic_1.md) |
