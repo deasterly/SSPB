@@ -73,6 +73,16 @@ Run the following commands in a terminal on the Linux Desktop VM Console as user
 >  https://edutube.emc.com/html5/videoPlayer.htm?vno=aRz95PUSU62BBVCMvicJAQ== 
 > 
  *****
+# Aliases
+
+An **alias** is a feature of the shell that allows users or administrators to use a string to call a different command.
+Aliases are often used to add an **option** to a command whenever it is run.  For example:
+The command `ls` actually runs `ls --color=auto`
+
+Another use is to create "shorthand" commands.  For example:
+The alias `ll` actually runs `ls -l --color=auto`
+
+To **override** an alias, place a backslash immediately before the "aliased" command.
 
 ![image](https://user-images.githubusercontent.com/36435980/148658624-2658f59c-8cdb-48e8-ac1c-88a1e52ec08c.png)
 
