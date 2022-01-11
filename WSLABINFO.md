@@ -46,4 +46,7 @@
 | 10        | 10.206.17.80 | AM01\BME102ST10 | d3ll$----    | 192.168.1.30  | 192.168.1.40   |
 
 4. After logging in to the Remote Desktop of the Windows Server "Jump Box" open a browser to your assigned iDRAC address
+    1. Accept the self-signed security certificate if necessary
+    2. Use the default credentials of **root / calvin**
 5. Open the PuTTy SSH client and connect to your assigned server address using **student / Passw0rd** for the credentials
+  
