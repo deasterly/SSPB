@@ -28,6 +28,7 @@ CLI user sessions require a **terminal** and a **shell**
   - Run `chvt 1` or press **`<ALT+F1>`**  for VT1 on */dev/tty1* 
   - Run `chvt 6` or press **`<ALT+F6>`**  for VT6 on */dev/tty6*
   - WARNING!!!  Using **`<ALT+F4>`** to access */dev/tty4* will CLOSE YOUR BROWSER WINDOW!  
+![image](https://user-images.githubusercontent.com/36435980/149012293-e3f09cc7-159d-4ef3-b7fc-147f24703b6e.png)
    
 - Exit CLI session using `exit` or `logout` commands or press **`<CTRL+d>`**
  
@@ -49,7 +50,7 @@ CLI user sessions require a **terminal** and a **shell**
 >  
 > It may be helpful to use an on-screen keyboard to demonstrate what you are doing. 
 > 
-> On Windows 10, try “START > RUN > osk” and suggest this option to students whose computers might bind some of these key combinations to other controls such as brightness, volume > controls, or display settings.
+> On Windows 10, try “START > RUN > osk” and suggest this option to students whose computers might bind some of these key combinations to other controls such as brightness, volume controls, or display settings.
 
 *****
 
