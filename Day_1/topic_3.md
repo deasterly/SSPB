@@ -8,8 +8,8 @@
 
 *****
 ## TRY IT: Bash Builtins
-Run the following commands in a terminal on the Linux Desktop VM Console as user student:
-Type the following in the terminal:
+Run the following commands in a terminal on the Linux Desktop VM Console as user **student**:
+
 1. `help | less `
   > Take a moment to read the top paragraph and list of built-in commands.
 2. `rpm -ql bash | less `
