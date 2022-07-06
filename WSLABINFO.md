@@ -30,20 +30,20 @@
 1. Connect to the corporate LAN or VPN 
 2. Launch the Remote Desktop client
     - Try "START > Run > `mstsc` " or **`<WINDOWS_KEY+r>`** then type `mstsc` in the "Run" box
-3. Connect to the IP address provided by the instructor for your assigned lab station as user **AM01\BME102STXX** where **XX** is your station number, 01 through 10
+3. Connect to the IP address provided by the instructor for your assigned lab station as user **AM01\BME104STXX** where **XX** is your station number, 01 through 10
 
-| STATION # | RDP ADDRESS  | RDP USERNAME    | RDP PASSWORD | iDRAC ADDRESS | SERVER ADDRESS |
-| --------: | :----------- | :-------------- | :----------- | :------------ | :------------- |
-| 01        | 10.206.17.71 | AM01\BME102ST01 | d3ll$----    | 192.168.1.21  | 192.168.1.31   |
-| 02        | 10.206.17.72 | AM01\BME102ST02 | d3ll$----    | 192.168.1.22  | 192.168.1.32   |
-| 03        | 10.206.17.73 | AM01\BME102ST03 | d3ll$----    | 192.168.1.23  | 192.168.1.33   |
-| 04        | 10.206.17.74 | AM01\BME102ST04 | d3ll$----    | 192.168.1.24  | 192.168.1.34   |
-| 05        | 10.206.17.75 | AM01\BME102ST05 | d3ll$----    | 192.168.1.25  | 192.168.1.35   |
-| 06        | 10.206.17.76 | AM01\BME102ST06 | d3ll$----    | 192.168.1.26  | 192.168.1.36   |
-| 07        | 10.206.17.77 | AM01\BME102ST07 | d3ll$----    | 192.168.1.27  | 192.168.1.37   |
-| 08        | 10.206.17.78 | AM01\BME102ST08 | d3ll$----    | 192.168.1.28  | 192.168.1.38   |
-| 09        | 10.206.17.79 | AM01\BME102ST09 | d3ll$----    | 192.168.1.29  | 192.168.1.39   |
-| 10        | 10.206.17.80 | AM01\BME102ST10 | d3ll$----    | 192.168.1.30  | 192.168.1.40   |
+| STATION # | RDP ADDRESS   | RDP USERNAME    | RDP PASSWORD | iDRAC ADDRESS | SERVER ADDRESS |
+| --------: | :------------ | :-------------- | :----------- | :------------ | :------------- |
+| 01        | 10.206.17.111 | AM01\BME104ST01 | d3ll$----    | 192.168.1.21  | 192.168.1.31   |
+| 02        | 10.206.17.112 | AM01\BME104ST02 | d3ll$----    | 192.168.1.22  | 192.168.1.32   |
+| 03        | 10.206.17.113 | AM01\BME104ST03 | d3ll$----    | 192.168.1.23  | 192.168.1.33   |
+| 04        | 10.206.17.114 | AM01\BME104ST04 | d3ll$----    | 192.168.1.24  | 192.168.1.34   |
+| 05        | 10.206.17.115 | AM01\BME104ST05 | d3ll$----    | 192.168.1.25  | 192.168.1.35   |
+| 06        | 10.206.17.116 | AM01\BME104ST06 | d3ll$----    | 192.168.1.26  | 192.168.1.36   |
+| 07        | 10.206.17.117 | AM01\BME104ST07 | d3ll$----    | 192.168.1.27  | 192.168.1.37   |
+| 08        | 10.206.17.118 | AM01\BME104ST08 | d3ll$----    | 192.168.1.28  | 192.168.1.38   |
+| 09        | 10.206.17.119 | AM01\BME104ST09 | d3ll$----    | 192.168.1.29  | 192.168.1.39   |
+| 10        | 10.206.17.120 | AM01\BME104ST10 | d3ll$----    | 192.168.1.30  | 192.168.1.40   |
 
 4. After logging in to the Remote Desktop of the Windows Server "Jump Box" open a browser to your assigned iDRAC address
     1. Accept the self-signed security certificate if necessary
@@ -70,8 +70,8 @@
 
 ### PowerEdge Server Hardware Lab Environment
 
-1. Only the "BME102" (Bare Metal Equipment) server solution has been set up to support this workshop thusfar
-2. All the BME102 servers will require additional configuration to support this workshop   
+1. Only the "BME102" or "BME104" (Bare Metal Equipment) server solutions have been set up to support this workshop thusfar
+2. All the BME102/BME104 servers will require additional configuration to support this workshop   
 
     1. Configure **and initialize** 2 RAID 0 arrays - 2 disks in the first R0 array (just under 300GB total) and a single disk R0 (just under 150GB) using the third disk
     ![image](https://user-images.githubusercontent.com/36435980/148991840-96e238f4-4bbf-42f2-9838-fcefddef8529.png)
