@@ -10,7 +10,7 @@
 1. Connect to the corporate LAN or VPN 
 2. Launch the Remote Desktop client
     - Try "START > Run > `mstsc` " or **`<WINDOWS_KEY+r>`** then type `mstsc` in the "Run" box
-3. Connect to the IP address provided by the instructor for your assigned lab station as user **AM01\BMEXXXSTXX** where **YY** is your station number, 01 through ??
+3. Connect to the IP address provided by the instructor for your assigned lab station as user **AM01\BMEXXXSTYY** where **YY** is your station number, 01 through ??
 
 | STATION # | RDP ADDRESS   | RDP USERNAME    | RDP PASSWORD | iDRAC ADDRESS | SERVER ADDRESS |
 | --------: | :------------ | :-------------- | :----------- | :------------ | :------------- |
