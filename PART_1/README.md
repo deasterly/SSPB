@@ -1,6 +1,6 @@
 # Server Support Linux Workshop
 
-## Day 1 Agenda
+## Part 1 Agenda
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |

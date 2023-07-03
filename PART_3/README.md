@@ -1,6 +1,6 @@
 # Server Support Linux Workshop
 
-## Day 3 Agenda
+## Part 3 Agenda
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |

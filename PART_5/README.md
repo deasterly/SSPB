@@ -1,6 +1,6 @@
 # Server Support Linux Workshop
 
-## Day 5 Agenda
+## Part 5 Agenda
 
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
