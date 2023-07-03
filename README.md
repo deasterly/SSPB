@@ -2,11 +2,10 @@
 
 ## Agenda
 
-SEE [AGEND.md](./AGENDA.md)
+### Module 1: Getting Started
+  - Configure and install your server lab environment
 
-## Objectives Covered
-
-### Using Red Hat Enterprise Linux
+### Module 2: Using Red Hat Enterprise Linux
   - Using the BASH CLI shell effectively and efficiently
     - Logging in to the CLI shell
     - Understanding commands and their syntax
@@ -25,7 +24,7 @@ SEE [AGEND.md](./AGENDA.md)
     - Editing text using `vim`
     - Searching for text using `grep` 
 
-### Performing System Administration Tasks in Linux
+### Module 3: Performing System Administration Tasks in Linux
   - Managing users and groups
     - Creating and managing groups and users
     - Setting user passwords
@@ -45,15 +44,15 @@ SEE [AGEND.md](./AGENDA.md)
     - Using the Cockpit web console
     - Using `sosreport` 
 
-### Running Linux on PowerEdge Servers
+### Module 4: Running Linux on PowerEdge Servers
   - Identifying supported Linux versions
     - Finding OS version and release info
     - Locating support matrices
-  - Identifying storage
+  - Identifying direct-attached storage
     - Identifying disks and partitions
     - Identifying LVM Physical Volumes, Volume Groups, and Logical Volumes
     - Identifying filesystems and mountpoints 
-  - Configuring storage
+  - Configuring direct-attached storage
     - Creating partitions
     - Creating XFS and EXT4 filesystems
     - Mounting filesystems
