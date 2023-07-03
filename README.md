@@ -3,7 +3,9 @@
 ## Agenda
 
 ### Module 1: Getting Started
-  - Configure and install your server lab environment
+  - Introduction - https://github.com/deasterly/SSPB/blob/linux_workshop/WSINTRO.md
+  - Additional Linux Resources - https://github.com/deasterly/SSPB/blob/linux_workshop/WSRESOURCES.md
+  - Configure and install your server lab environment - https://github.com/deasterly/SSPB/blob/linux_workshop/WSLABINFO.md
 
 ### Module 2: Using Red Hat Enterprise Linux
   - Using the BASH CLI shell effectively and efficiently
