@@ -5,8 +5,8 @@
 | **Section** | **Module** | **Lesson** | **Topic** |
 | :---------: | :--------: | :--------: | :-------- |
 | Class Introduction | Welcome to this Workshop! | Getting Started | [What is this workshop? ](../WSINSTRO.md) |
-| " | " | " | [Lab Environment Information](../WSLABINFO.md) |
 | " | " | " | [Additional Resources](../WSRESROURCES.md) |
+| " | " | " | [Lab Environment - Information and Setup](../WSLABINFO.md) |
 | Using RHEL | BASH CLI Shell | Logging in to the CLI shell | [Local Terminals](./topic_1.md) |
 | " | " | " | [Remote SSH Terminals](./topic_2.md) |
 | " | " | Understanding commands and their syntax | [Shell Built-ins](topic_3.md) |
