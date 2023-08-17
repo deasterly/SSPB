@@ -1,5 +1,7 @@
 # BASH CLI Shell > Logging in to the CLI shell > Remote SSH Terminals
 
+##INSTRUCTOR NOTE: NEED TO FIND IP ADDRESS OF LINUX SERVER FOR "TRY IT" EXERCISE
+
 ![image](https://user-images.githubusercontent.com/36435980/149012715-223937ed-ed62-4238-a1f2-49da9ce19223.png)
 
 ![image](https://user-images.githubusercontent.com/36435980/148658207-700650d2-de0a-4f1f-a671-0ce3a2309757.png)
